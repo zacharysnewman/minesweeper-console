@@ -87,6 +87,7 @@ namespace consoleminesweeper
             Write($"Game Status: {gameStatus}");
 
             Write("\n\nEnter Command: ");
+            Console.ResetColor();
         }
 
         private static Action<object> Write = Console.Write;
